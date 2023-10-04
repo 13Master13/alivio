@@ -24,12 +24,11 @@
 	line-height: 1.45;
 }
 
-.home-btn-container {
+.btn-container {
 	display: flex;
 }
 
 .home-btn {
-	display: inline-block;
 	min-height: 65px;
 	display: flex;
 	align-items: center;

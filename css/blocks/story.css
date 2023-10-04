@@ -53,6 +53,7 @@
 
 .story-video {
 	position: relative;
+	overflow: hidden;
 	width: 895px;
 }
 
@@ -74,5 +75,5 @@
 }
 
 .story-video-object {
-	border-radius: 16.3px;
+	border-radius: 18px;
 }

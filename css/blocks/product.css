@@ -60,6 +60,11 @@
 	transition: opacity 0.2s ease;
 }
 
+.product-content-btn:hover {
+	opacity: 0.8;
+	color: #fff;
+}
+
 .product-card {
 	position: absolute;
 	left: 0;

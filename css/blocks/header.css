@@ -22,6 +22,8 @@
 }
 
 .header-nav-link {
+	padding-top: 30px;
+	padding-bottom: 31px;
 	font-weight: 500;
 	color: #292929;
 	transition: color 0.2s ease;
@@ -50,7 +52,7 @@
 	color: #01996d;
 }
 
-.btn {
+.header-btn {
 	display: inline-block;
 	min-height: 51px;
 	display: flex;
@@ -66,7 +68,11 @@
 	transition: opacity 0.2s ease;
 }
 
-.btn:hover {
+.header-btn:hover {
 	opacity: 0.8;
 	color: #fff;
+}
+
+.btn-big {
+	min-height: 65px;
 }

@@ -12,6 +12,7 @@
 		<link rel="stylesheet" href="./css/blocks/story.css" />
 		<link rel="stylesheet" href="./css/blocks/product.css" />
 		<link rel="stylesheet" href="./css/blocks/footer.css" />
+		<link rel="stylesheet" href="./css/blocks/mobime-nav.css" />
 		<link rel="stylesheet" href="./css/fonts/Georgia/stylesheet.css" />
 		<link rel="stylesheet" href="./css/fonts/Lato/stylesheet.css" />
 	</head>
@@ -32,9 +33,27 @@
 						<a class="login" href="#">Sing in</a>
 						<a class="header-btn" href="#">Start Trial</a>
 					</div>
+					<button class="mobile-nav-btn" type="button">
+						<span class="mobile-nav-btn-icon"></span>
+					</button>
 				</div>
 			</div>
 		</header>
+		<div class="mobile-nav-wrapper">
+			<img class="mobile-nav-logo" src="./img/logo.svg" alt="Logo" />
+			<nav class="mobile-nav">
+				<ul class="mobile-nav-list">
+					<li class="mobile-nav-item"><a class="mobile-nav-link" href="#">Why Alivio</a></li>
+					<li class="mobile-nav-item"><a class="mobile-nav-link" href="#">Solutions</a></li>
+					<li class="mobile-nav-item"><a class="mobile-nav-link" href="#">Community</a></li>
+					<li class="mobile-nav-item"><a class="mobile-nav-link" href="#">Pricing</a></li>
+				</ul>
+			</nav>
+			<div class="mobile-login">
+				<a class="login-mobile" href="#">Sing in</a>
+				<a class="mobile-header-btn" href="#">Start Trial</a>
+			</div>
+		</div>
 		<main>
 			<section class="home">
 				<div class="container">
@@ -111,11 +130,19 @@
 						</div>
 						<div class="story-video">
 							<div class="story-video-overlay">
-								<button class="story-video-btn">
-									<img src="./img/play-white.svg" alt="Play" />
+								<button class="story-video-btn" id="video-story-btn">
+									<img
+										class="story-video-btn-icon"
+										src="./img/play-white.svg"
+										alt="Play"
+										width="82"
+										height="82"
+									/>
 								</button>
 							</div>
-							<img class="story-video-object" src="./img/story/video-preview.jpg" alt="Video" />
+							<video class="story-video-object" id="video-story">
+								<source src="./video/customer-story.mp4" type="video/mp4" />
+							</video>
 						</div>
 					</div>
 				</div>
@@ -174,5 +201,6 @@
 				</div>
 			</div>
 		</footer>
+		<script src="./js/main.js"></script>
 	</body>
 </html>

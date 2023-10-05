@@ -29,3 +29,7 @@ body {
 .container-wide {
 	width: 1536px;
 }
+
+.no-scroll {
+	overflow: hidden;
+}
